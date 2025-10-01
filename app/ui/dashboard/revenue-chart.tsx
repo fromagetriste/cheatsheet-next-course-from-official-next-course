@@ -33,7 +33,7 @@ export default async function RevenueChart({
           <div
             className="mb-6 hidden flex-col justify-between text-sm text-gray-400 sm:flex"
             style={{ height: `${chartHeight}px` }}
-          >
+          > 
             {yAxisLabels.map((label) => (
               <p key={label}>{label}</p>
             ))}
